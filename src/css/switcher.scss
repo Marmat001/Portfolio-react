@@ -1,0 +1,504 @@
+.theme-red {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  strong {
+    color: #fff;
+  }
+
+  h6 {
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+  }
+
+  p,
+  li,
+  span,
+  label,
+  input,
+  textarea {
+    color: #eeeeee;
+  }
+
+  .s1 {
+    background-color: #350909;
+    border-bottom: 1px solid #160f17;
+  }
+
+  .s2 {
+    background-color: #3f0a0f;
+    border-bottom: 1px solid #160f17;
+  }
+
+  .first {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(53, 9, 9, 0.2),
+        rgba(121, 12, 12, 0.1)
+      ),
+      url(../img/background4.jpeg);
+    background-position: bottom;
+    transition: none;
+  }
+
+  .intro-wrapper {
+    background-color: #3f0a0f;
+    border: 1px solid #160f17;
+  }
+
+  .nav-wrapper {
+    grid-area: nav-wrapper;
+    border-bottom: 1px solid #160f17;
+
+    background-color: #350909;
+  }
+
+  .heading-primary-main,
+  .heading-primary-sub {
+    color: #fff;
+  }
+
+  .theme-dot {
+    border: 2px solid #fff;
+  }
+
+  .maker {
+    border-top: 1px solid #fff;
+  }
+
+  .navigation__button {
+    background-color: #fff;
+  }
+
+  .navigation__background {
+    background-image: radial-gradient(#350909, #d55e6a);
+  }
+
+  .navigation__link:link,
+  .navigation__link:visited {
+    color: white;
+
+    background-image: linear-gradient(
+      120deg,
+      transparent 0%,
+      transparent 50%,
+      #981919 50%
+    );
+  }
+
+  .navigation__link:hover,
+  .navigation__link:active {
+    color: #fff;
+  }
+
+  .navigation__icon,
+  .navigation__icon::before,
+  .navigation__icon::after {
+    background-color: #3f0a0f;
+  }
+
+  #skills {
+    background-color: #350909;
+  }
+
+  #profile_pic {
+    border: 2px solid #160f17;
+  }
+
+  hr {
+    border-color: #fff;
+  }
+
+  #preview-shadow {
+    background-color: #350909;
+  }
+
+  #preview {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  #contact-form {
+    border: 3px solid #160f17;
+    background-color: #350909;
+  }
+
+  .input-field {
+    background-color: #3f0a0f;
+    border: 1px solid #160f17;
+  }
+
+  #submit-btn {
+    background-color: black;
+    color: #fff;
+  }
+
+  .post {
+    background-color: #3f0a0f;
+    border: 1px solid #160f17;
+  }
+
+  .post-title {
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .post-preview p {
+    color: black;
+  }
+
+  .btn--white {
+    background-color: #fff;
+    color: black;
+  }
+  .btn--white::after {
+    background-color: #fff;
+  }
+
+  .btn--infopage {
+    color: #fff;
+  }
+
+  .theme-dot:hover {
+    border-width: 5px;
+  }
+}
+
+.theme-black {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  strong {
+    color: rgb(254, 19, 19);
+  }
+
+  h6 {
+    color: rgb(254, 19, 19);
+    font-family: 'Russo One', sans-serif;
+  }
+
+  p,
+  li,
+  span,
+  label,
+  input,
+  textarea {
+    color: rgb(230, 22, 22);
+  }
+
+  .s1 {
+    background-color: #171616;
+    border-bottom: 1px solid #160f17;
+  }
+
+  .s2 {
+    background-color: #1e1e21;
+    border-bottom: 1px solid #160f17;
+  }
+
+  .first {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(53, 9, 9, 0.2),
+        rgba(121, 12, 12, 0.1)
+      ),
+      url(../img/background5.jpeg);
+    background-position: bottom;
+    transition: none;
+  }
+
+  .intro-wrapper {
+    background-color: #1e1e21;
+    border: 1px solid #160f17;
+  }
+
+  .nav-wrapper {
+    grid-area: nav-wrapper;
+    border-bottom: 1px solid #160f17;
+
+    background-color: #171616;
+  }
+
+  .heading-primary-main {
+    color: rgb(254, 19, 19);
+  }
+
+  .heading-primary-sub {
+    color: rgb(254, 19, 19);
+  }
+
+  .theme-dot {
+    border: 2px solid #fff;
+  }
+
+  .maker {
+    border-top: 1px solid rgb(254, 19, 19);
+  }
+
+  .navigation__button {
+    background-color: rgb(254, 19, 19);
+  }
+
+  .navigation__background {
+    background-image: radial-gradient(#171616, #d55e6a);
+  }
+
+  .navigation__link:link,
+  .navigation__link:visited {
+    color: white;
+    background-image: linear-gradient(
+      120deg,
+      transparent 0%,
+      transparent 50%,
+      #000000 50%
+    );
+  }
+
+  .navigation__link:hover,
+  .navigation__link:active {
+    color: #fff;
+  }
+
+  .navigation__icon,
+  .navigation__icon::before,
+  .navigation__icon::after {
+    background-color: #1e1e21;
+  }
+
+  #skills {
+    background-color: #171616;
+  }
+
+  #profile_pic {
+    border: 2px solid #160f17;
+  }
+
+  hr {
+    border-color: rgb(254, 19, 19);
+  }
+
+  #preview-shadow {
+    background-color: #171616;
+  }
+
+  #preview {
+    background-color: rgba(27, 28, 27, 0.8);
+  }
+
+  #contact-form {
+    border: 3px solid #160f17;
+    background-color: #171616;
+  }
+
+  .input-field {
+    background-color: #1e1e21;
+    border: 1px solid #160f17;
+  }
+
+  #submit-btn {
+    background-color: rgb(230, 22, 22);
+    color: rgb(254, 19, 19);
+  }
+
+  .post {
+    background-color: #1e1e21;
+    border: 1px solid #160f17;
+  }
+
+  .post-title {
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .post-preview p {
+    color: black;
+  }
+
+  .btn--white {
+    background-color: rgb(254, 19, 19);
+    color: black;
+  }
+  .btn--white::after {
+    background-color: rgb(254, 19, 19);
+  }
+
+  .btn--infopage {
+    color: rgb(254, 19, 19);
+  }
+
+  .theme-dot:hover {
+    border-width: 5px;
+  }
+}
+
+.theme-white {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  strong,
+  input,
+  label,
+  textarea {
+    color: black;
+  }
+
+  h6 {
+    color: black;
+    font-family: 'Russo One', sans-serif;
+  }
+
+  p,
+  li,
+  span {
+    color: #eeeeee;
+  }
+
+  .s1 {
+    background-color: #eaeaea;
+    border-bottom: 1px solid #c1c1c1;
+  }
+
+  .s2 {
+    background-color: #fff;
+    border-bottom: 1px solid #c1c1c1;
+  }
+
+  .first {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(234, 234, 234, 0.2),
+        rgba(75, 81, 86, 0.1)
+      ),
+      url(../img/background.jpeg);
+    background-position: bottom;
+    transition: none;
+  }
+
+  .intro-wrapper {
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+  }
+
+  .nav-wrapper {
+    grid-area: nav-wrapper;
+    border-bottom: 1px solid #c1c1c1;
+
+    background-color: #eaeaea;
+  }
+
+  .heading-primary-main,
+  .heading-primary-sub {
+    color: black;
+  }
+
+  .theme-dot {
+    border: 2px solid black;
+  }
+
+  .maker {
+    border-top: 1px solid black;
+  }
+
+  .navigation__button {
+    background-color: black;
+  }
+
+  .navigation__background {
+    background-image: radial-gradient(#fff, black);
+  }
+
+  .navigation__link:link,
+  .navigation__link:visited {
+    color: white;
+
+    background-image: linear-gradient(
+      120deg,
+      transparent 0%,
+      transparent 50%,
+      black 50%
+    );
+  }
+
+  .navigation__icon,
+  .navigation__icon::before,
+  .navigation__icon::after {
+    background-color: #fff;
+  }
+
+  #skills {
+    background-color: #eaeaea;
+  }
+
+  #profile_pic {
+    border: 2px solid #c1c1c1;
+  }
+
+  hr {
+    border-color: black;
+  }
+
+  #preview-shadow {
+    background-color: #eaeaea;
+  }
+
+  #preview {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  #contact-form {
+    border: 3px solid #c1c1c1;
+    background-color: #eaeaea;
+  }
+
+  .input-field {
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+  }
+
+  #submit-btn {
+    background-color: black;
+    color: #fff;
+  }
+
+  .post {
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+  }
+
+  .post-title {
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .post-preview p {
+    color: black;
+  }
+
+  .btn--white {
+    background-color: black;
+    color: #eeeeee;
+  }
+  .btn--white::after {
+    background-color: black;
+  }
+
+  .btn--infopage {
+    color: black;
+  }
+
+  .theme-dot:hover {
+    border-width: 5px;
+  }
+
+  .about-me p {
+    color: black;
+  }
+}

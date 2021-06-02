@@ -1,0 +1,77 @@
+:root {
+  --mainColor: #171616;
+  --secondaryColor: #1e1e21;
+
+  --borderColor: #161914;
+
+  --mainText: rgb(254, 19, 19);
+  --secondaryText: rgb(230, 22, 22);
+
+  --themeDotBorder: #fff;
+
+  --previewBg: rgba(27, 28, 27, 0.8);
+  --previewShadow: #171616;
+
+  --buttonColor: rgb(230, 22, 22);
+}
+
+.navigation__button {
+  background-color: var(--mainText);
+}
+.navigation__background {
+  background-image: radial-gradient(var(--mainColor), #88444a);
+}
+
+.navigation__link:link,
+.navigation__link:visited {
+  color: white;
+
+  background-image: linear-gradient(
+    120deg,
+    transparent 0%,
+    transparent 50%,
+    #000000 50%
+  );
+}
+
+.btn--white {
+  background-color: var(--mainText);
+  color: black;
+}
+.btn--white::after {
+  background-color: var;
+}
+
+.btn-text:link,
+.btn-text:visited {
+  color: var(--mainText);
+  border-bottom: 1px solid vaf(var(--mainText));
+}
+
+.btn-text:hover {
+  background-color: black;
+  color: black;
+}
+
+.first {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(26, 25, 25, 0.8),
+      rgba(28, 16, 20, 0.5)
+    ),
+    url(../img/background5.jpeg);
+  background-position: top;
+  transition: none;
+}
+
+.btn--white {
+  background-color: var(--mainText);
+  color: black;
+}
+.btn--white::after {
+  background-color: var(--mainText);
+}
+
+hr {
+  border-color: var(--mainText);
+}
