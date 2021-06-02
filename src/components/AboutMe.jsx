@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <section className='s2 second'>
       <div className='main-container'>
-        <div className='about-wrapper'>
+        <div className='about-wrapper' id='about'>
           <div className='about-me'>
             <h4>Const markus =</h4>
             <p>

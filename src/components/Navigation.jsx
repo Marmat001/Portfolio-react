@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-scroll'
 
 const Navigation = () => {
+  const [navOpen, setNavOpen] = useState(false)
+
   return (
     <div className='navigation'>
       <input
         type='checkbox'
-        className='navigation__checkbox'
+        className={` ${navOpen ? 'nav-active' : ''} navigation__checkbox`}
         id='navi-toggle'
+        onClick={() => setNavOpen(!navOpen)}
       />
       <label htmlFor='navi-toggle' className='navigation__button'>
         <span className='navigation__icon'>&nbsp;</span>
@@ -15,28 +19,45 @@ const Navigation = () => {
       <nav className='navigation__nav'>
         <ul className='navigation__list'>
           <li className='navigation__item'>
-            <a href='#about' className='navigation__link'>
+            <Link
+              to='about'
+              spy={true}
+              href='#about'
+              className='navigation__link'
+              onClick={() => setNavOpen(!navOpen)}
+            >
               <span>01</span>About
+            </Link>
+          </li>
+
+          <li className='navigation__item'>
+            <a
+              href='/#'
+              className='navigation__link'
+              onClick={() => setNavOpen(!navOpen)}
+            >
+              <span>02</span>Projects
             </a>
           </li>
+
           <li className='navigation__item'>
-            <a href='#shiiiet' className='navigation__link'>
-              <span>02</span>Top Expertise
-            </a>
+            <Link
+              to='contact-form'
+              spy={true}
+              href='#contact-form'
+              className='navigation__link'
+              onClick={() => setNavOpen(!navOpen)}
+            >
+              <span>03</span>Contact
+            </Link>
           </li>
           <li className='navigation__item'>
-            <a href='/#' className='navigation__link'>
-              <span>03</span>Projects
-            </a>
-          </li>
-          <li className='navigation__item'>
-            <a href='#contact' className='navigation__link'>
-              <span>04</span>Contact
-            </a>
-          </li>
-          <li className='navigation__item'>
-            <a href='/#' className='navigation__link'>
-              <span>05</span>Resume
+            <a
+              href='/#'
+              className='navigation__link'
+              onClick={() => setNavOpen(!navOpen)}
+            >
+              <span>04</span>Resume
             </a>
           </li>
         </ul>

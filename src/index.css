@@ -465,11 +465,11 @@ ul {
   transform: translateX(1rem);
 }
 
-.navigation__checkbox:checked ~ .navigation__background {
+.nav-active ~ .navigation__background {
   transform: scale(80);
 }
 
-.navigation__checkbox:checked ~ .navigation__nav {
+.nav-active ~ .navigation__nav {
   opacity: 1;
   width: 100%;
   pointer-events: all;
@@ -541,16 +541,16 @@ ul {
   }
 }
 
-.navigation__checkbox:checked + .navigation__button .navigation__icon {
+.nav-active + .navigation__button .navigation__icon {
   background-color: transparent;
 }
 
-.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+.nav-active + .navigation__button .navigation__icon::before {
   top: 0;
   transform: rotate(135deg);
 }
 
-.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+.nav-active + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg);
 }
