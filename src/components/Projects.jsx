@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import vroom from '../img/vroom.png'
 import vroom2 from '../img/vroom2.png'
 import gamedatabase from '../img/gamedatabase.png'
@@ -14,7 +16,7 @@ import amplified2 from '../img/amplified2.png'
 
 const Projects = () => {
   return (
-    <section className='s1'>
+    <section className='s1' id='projects'>
       <div className='main-container'>
         <h3 style={{ textAlign: 'center' }}>Some of the things I've built</h3>
         <div className='post-wrapper'>
@@ -42,8 +44,16 @@ const Projects = () => {
             </div>
             <div className='post__side post__side--back post__side--back-1'>
               <img className='thumbnail-2' src={vroom2} alt='car-preview' />
-              <a href='/vroom.html' className='btn--infopage'>
+              <Link to='/projects/vroom' className='btn--infopage'>
                 Detailed Information
+              </Link>
+
+              <a
+                target='/_blank'
+                href='https://vroomshop.herokuapp.com'
+                className='btn--infopage'
+              >
+                View Website Directly
               </a>
             </div>
           </div>
@@ -78,8 +88,16 @@ const Projects = () => {
                 src={gamedatabase2}
                 alt='gamedatabase-preview'
               />
-              <a href='/#' className='btn--infopage'>
+              <Link to='/projects/game-database' className='btn--infopage'>
                 Detailed Information
+              </Link>
+
+              <a
+                target='/_blank'
+                href='https://gamedatabase.netlify.app'
+                className='btn--infopage'
+              >
+                View Website Directly
               </a>
             </div>
           </div>
@@ -115,8 +133,16 @@ const Projects = () => {
                 src={vacationeer2}
                 alt='vacationeer-preview'
               />
-              <a href='/#' className='btn--infopage'>
+              <Link to='/projects/vacationeer' className='btn--infopage'>
                 Detailed Information
+              </Link>
+
+              <a
+                target='/_blank'
+                href='https://vacationeer.herokuapp.com'
+                className='btn--infopage'
+              >
+                View Website Directly
               </a>
             </div>
           </div>
@@ -147,9 +173,9 @@ const Projects = () => {
                 src={noterJS2}
                 alt='noterjs-preview'
               />
-              <a href='/#' className='btn--infopage'>
+              <Link to='/projects/noterjs' className='btn--infopage'>
                 Detailed Information
-              </a>
+              </Link>
             </div>
           </div>
           <div className='post'>
@@ -180,8 +206,16 @@ const Projects = () => {
                 src={tourify2}
                 alt='tourify-preview'
               />
-              <a href='/#' className='btn--infopage'>
+              <Link to='/projects/tourify' className='btn--infopage'>
                 Detailed Information
+              </Link>
+
+              <a
+                target='/_blank'
+                href='https://tourifyshop.herokuapp.com'
+                className='btn--infopage'
+              >
+                View Website Directly
               </a>
             </div>
           </div>
@@ -212,8 +246,19 @@ const Projects = () => {
                 src={amplified2}
                 alt='amplified-preview'
               />
-              <a href='/#' className='btn--infopage'>
+              <Link
+                to='/projects/amplified-music-player'
+                className='btn--infopage'
+              >
                 Detailed Information
+              </Link>
+
+              <a
+                target='/_blank'
+                href='https://amplified-sound.netlify.app'
+                className='btn--infopage'
+              >
+                View Website Directly
               </a>
             </div>
           </div>
