@@ -36,7 +36,7 @@ const AboutMe = () => {
                 <ul>
                   <li>HTML/(S)CSS</li>
                   <li>MongoDB/Mongoose</li>
-                  <li>Heroku/Netlify</li>
+                  <li>Heroku/DigitalOcean</li>
                 </ul>
                 <div id='corner-br' className='corner' />
                 <div id='corner-bl' className='corner' />

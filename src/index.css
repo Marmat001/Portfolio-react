@@ -594,7 +594,7 @@ hr {
 
 #preview-shadow {
   background-color: var(--previewShadow);
-  width: 400px;
+  width: 430px;
   height: 100px;
   padding-left: 30px;
   padding-top: 30px;
@@ -604,7 +604,7 @@ hr {
 }
 
 #preview {
-  width: 400px;
+  width: 430px;
   border: 1.5px solid #17a2b8;
   background-color: var(--previewBg);
   padding: 15px;
@@ -640,6 +640,12 @@ hr {
 #corner-bl {
   bottom: -5px;
   left: -5px;
+}
+
+@media screen and (max-width: 950px) {
+  #preview-shadow {
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 778px) {
@@ -952,6 +958,11 @@ hr {
   border-radius: 5px;
 }
 
+.project-page {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .project-page h1,
 h2 {
   color: white;
@@ -966,10 +977,19 @@ h2 {
 
 .project-page .img-container {
   text-align: center;
+  margin-bottom: 50px;
 }
 
-.project-page .img-container {
-  margin-bottom: 50px;
+.project-page .img-gallery {
+  width: 60vw;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.project-page .img-gallery h3 {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  text-align: left;
 }
 
 .project-page .img-container img {
@@ -986,7 +1006,6 @@ h2 {
 
 .tech-gif {
   display: flex;
-  /* flex-direction: column; lägg denna på mobile view */
   justify-content: space-around;
   align-items: center;
 }
@@ -1030,7 +1049,34 @@ h2 {
 }
 
 .description {
-  margin-top: 100px;
+  margin: 100px 0;
+}
+
+.description p {
+  color: #fff;
+  line-height: 25px;
+}
+
+.description ul li {
+  margin-bottom: 5px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.description ul li::before {
+  content: '\2713';
+  color: rgb(73, 255, 73);
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.5em;
+  width: 1em;
+  margin-left: -1em;
+}
+
+@media screen and (max-width: 1350px) {
+  .project-page {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 1050px) {
@@ -1058,6 +1104,10 @@ h2 {
 
   .description {
     margin-top: 0;
+  }
+
+  .project-page .img-gallery {
+    width: 100%;
   }
 }
 

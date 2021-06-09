@@ -69,9 +69,6 @@ const Projects = () => {
                 <p className='post-intro'>
                   Explore the latest, most popular and upcoming games from a
                   single website.
-                  {/* Project built using the RAWG Video Games
-        Database API, the largest open video games database currently
-        available. */}
                 </p>
                 <div>
                   <button className='tech-btn'>React</button>
