@@ -75,6 +75,7 @@ const Projects = () => {
                   <button className='tech-btn'>RAWG Database API</button>
                   <button className='tech-btn'>Framer Motion</button>
                   <button className='tech-btn'>Styled Components</button>
+                  <button className='tech-btn'>ParticleJS</button>
                 </div>
                 <p className='read-more'>Hover for more info</p>
               </div>
