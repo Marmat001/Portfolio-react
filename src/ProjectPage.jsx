@@ -62,19 +62,21 @@ const ProjectPage = ({ match }) => {
             </ul>
           </div>
 
-          <hr />
-
-          <h2>Image Gallery</h2>
-          <hr />
-
-          <div className='img-gallery'>
-            {project.imageGallery.map((image, i) => (
-              <div className='img-container' key={image}>
-                <h3>{imageDescription[i]}</h3>
-                <img src={image} alt='description' />
+          {project.imageGallery && (
+            <div>
+              <hr />
+              <h2>Image Gallery</h2>
+              <hr />
+              <div className='img-gallery'>
+                {project.imageGallery.map((image, i) => (
+                  <div className='img-container' key={image}>
+                    <h3>{imageDescription[i]}</h3>
+                    <img src={image} alt='description' />
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </div>
+          )}
         </div>
       )}
     </section>

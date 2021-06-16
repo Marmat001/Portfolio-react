@@ -59,7 +59,7 @@ import tourify20 from './img/tourify21.png'
 import tourify21 from './img/tourify22.png'
 import tourify22 from './img/tourify23.png'
 import amplified from './img/amplified.png'
-import amplified2 from './img/amplified2.png'
+import amplified3 from './img/amplified.gif'
 import react from './img/react-icon.png'
 import nodeJs from './img/nodejs.png'
 import express from './img/express-icon.png'
@@ -284,7 +284,7 @@ const projects = [
     ],
     link: 'https://tourifyshop.herokuapp.com',
     description:
-      'A fully responsive CRUD application built with the MERN stack (React, MongoDB, Express & Node). The goal when making this project was to add as much functionality as possible, and preferably by using different programming approaches. I wanted this to be one of my largest and most complex projects yet, to really evaluate and experiment with my knowledge. Building this full-stack application was a great opportunity to augment my expertise in what I had been learning at the time such as: - Integrating firebase for authentication handling and saving user information in MongoDB database, combining firebase with MongoDB for an efficient authentication system, - Using a location data platform like Mapbox that powers the maps and location services used in many popular apps, - Working with a component based styling framework like Ant Design, - Utilizing a cloud-based image / video management service like Cloudinary for effortless multiple image upload... and much more. There is a lot of functionality in this application, it would be hard to mention everything... so here are some of the features provided:',
+      'A fully responsive CRUD application built with the MERN stack (React, MongoDB, Express & Node). The goal when making this project was to add as much functionality as possible, and preferably by using different programming approaches. I wanted this to be one of my largest and most complex projects yet, to really evaluate and experiment with my knowledge. Building this full-stack application was a great opportunity to augment my expertise in what I had been learning at the time such as: - Integrating firebase for authentication handling and saving user information in MongoDB database, combining firebase with MongoDB for an efficient authentication system, - Using a location data platform like Mapbox that powers the maps and location services used in many popular apps, - Working with a component based styling framework like Ant Design, - Utilizing a cloud-based image / video management service like Cloudinary for effortless multiple image uploads... and much more. There is a lot of functionality in this application, it would be hard to mention everything... so here are some of the features provided:',
     functionality: [
       'Firebase authentication handling',
       'Complete login with email / password & social login (Google)',
@@ -355,13 +355,19 @@ const projects = [
     slugName: 'amplified-music-player',
     name: 'Amplified Music Player',
     image: amplified,
-    image2: amplified2,
+    image2: amplified3,
     techStack: [react, scss],
     link: 'https://amplified-sound.netlify.app',
-    description: 'the best shop',
-    functionality: [],
-    imageGallery: [],
-    imageDescription: [],
+    description:
+      'This project is a React music player with expected functionality. There is also a library with a selection of royalty free music that the user can browse through and play. This application has really helped me with the concepts of: - Working with hooks such as useRef for capturing input values, - Passing, drilling and destructuring props, - Passing, lifting and modifying state... and more. Some of the features provided in this application are:',
+    functionality: [
+      'Play / pause',
+      'Skip Forward / back',
+      'View song length / time left',
+      'Drag handler to change position in current song',
+      'Song library to choose songs from',
+      'Mobile responsive',
+    ],
   },
 ]
 
