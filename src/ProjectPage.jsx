@@ -54,6 +54,7 @@ const ProjectPage = ({ match }) => {
           <div className='description'>
             <h2>Work Flow / Description</h2>
             <p>{project.description}</p>
+            {project.description2 && <p>{project.description2}</p>}
             <ul>
               {project.functionality.map((functions) => (
                 <li key={functions}>{functions}</li>
