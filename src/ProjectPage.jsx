@@ -4,7 +4,6 @@ import projects from './projectDetails.jsx'
 const ProjectPage = ({ match }) => {
   const [loading, setLoading] = useState(true)
   const project = projects.find((p) => p.slugName === match.params.project)
-  // const images = project.imageGallery
   const imageDescription = project.imageDescription
 
   useEffect(() => {

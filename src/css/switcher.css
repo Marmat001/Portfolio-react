@@ -32,8 +32,8 @@
 }
 
 .theme-red .first {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(53, 9, 9, 0.2)), to(rgba(121, 12, 12, 0.1))), url(../img/background4.jpeg);
-  background-image: linear-gradient(to right bottom, rgba(53, 9, 9, 0.2), rgba(121, 12, 12, 0.1)), url(../img/background4.jpeg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(61, 7, 24, 0.6)), to(rgba(230, 33, 46, 0.1))), url(../img/backgroundNew.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(61, 7, 24, 0.6), rgba(230, 33, 46, 0.1)), url(../img/backgroundNew.jpeg);
   background-position: bottom;
   -webkit-transition: none;
   transition: none;
@@ -189,8 +189,8 @@
 }
 
 .theme-black .first {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(53, 9, 9, 0.2)), to(rgba(121, 12, 12, 0.1))), url(../img/background5.jpeg);
-  background-image: linear-gradient(to right bottom, rgba(53, 9, 9, 0.2), rgba(121, 12, 12, 0.1)), url(../img/background5.jpeg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(11, 11, 11, 0.6)), to(rgba(0, 0, 0, 0.1))), url(../img/backgroundNew.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(11, 11, 11, 0.6), rgba(0, 0, 0, 0.1)), url(../img/backgroundNew.jpeg);
   background-position: bottom;
   -webkit-transition: none;
   transition: none;
@@ -349,8 +349,8 @@
 }
 
 .theme-white .first {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(234, 234, 234, 0.2)), to(rgba(75, 81, 86, 0.1))), url(../img/background.jpeg);
-  background-image: linear-gradient(to right bottom, rgba(234, 234, 234, 0.2), rgba(75, 81, 86, 0.1)), url(../img/background.jpeg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(189, 193, 190, 0.6)), to(rgba(171, 171, 171, 0.1))), url(../img/backgroundNew.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(189, 193, 190, 0.6), rgba(171, 171, 171, 0.1)), url(../img/backgroundNew.jpeg);
   background-position: bottom;
   -webkit-transition: none;
   transition: none;

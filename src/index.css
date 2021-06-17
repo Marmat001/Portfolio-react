@@ -151,12 +151,12 @@ ul {
 .first {
   background-image: linear-gradient(
       to right bottom,
-      rgba(7, 30, 61, 0.2),
+      rgba(7, 61, 29, 0.6),
       rgba(33, 230, 193, 0.1)
     ),
-    url(./img/background2.jpeg);
+    url(./img/backgroundNew.jpeg);
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   transition: none;
   height: 95vh;
   overflow: hidden;
