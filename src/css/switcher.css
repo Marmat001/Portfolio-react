@@ -7,6 +7,10 @@
   color: #fff;
 }
 
+.theme-red a {
+  color: #fff;
+}
+
 .theme-red h6 {
   color: #fff;
   font-family: 'Russo One', sans-serif;
@@ -108,9 +112,9 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.theme-red #contact-form {
-  border: 3px solid #160f17;
+.theme-red #preview-2 {
   background-color: #350909;
+  border: 3px solid #000000;
 }
 
 .theme-red .input-field {
@@ -161,6 +165,10 @@
 .theme-black h4,
 .theme-black h5,
 .theme-black strong {
+  color: #fe1313;
+}
+
+.theme-black a {
   color: #fe1313;
 }
 
@@ -268,9 +276,9 @@
   background-color: rgba(27, 28, 27, 0.8);
 }
 
-.theme-black #contact-form {
-  border: 3px solid #160f17;
+.theme-black #preview-2 {
   background-color: #171616;
+  border: 3px solid #9f0812;
 }
 
 .theme-black .input-field {
@@ -324,6 +332,10 @@
 .theme-white input,
 .theme-white label,
 .theme-white textarea {
+  color: black;
+}
+
+.theme-white a {
   color: black;
 }
 
@@ -420,9 +432,9 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.theme-white #contact-form {
-  border: 3px solid #c1c1c1;
+.theme-white #preview-2 {
   background-color: #eaeaea;
+  border: 3px solid #000000;
 }
 
 .theme-white .input-field {

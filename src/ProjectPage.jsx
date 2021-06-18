@@ -84,8 +84,3 @@ const ProjectPage = ({ match }) => {
 
 export default ProjectPage
 
-// {project.imageGallery.map((image) => (
-//   <div className='img-container'>
-//     <img src={image} alt='description' />
-//   </div>
-// ))}

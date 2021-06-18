@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-scroll'
 
 const IntroSection = ({ handleClick, colorTheme }) => {
   return (
@@ -49,13 +48,13 @@ const IntroSection = ({ handleClick, colorTheme }) => {
             <span className='heading-primary-sub'>
               Front End Developer With Full Stack Experience
             </span>
-            <Link
-              to='contact-form'
-              spy={true}
+
+            <a
+              href='mailto:markusw880i@hotmail.com'
               className='btn btn--white btn--animated'
             >
               Get In Touch
-            </Link>
+            </a>
           </div>
         </div>
       </div>

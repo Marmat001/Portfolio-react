@@ -105,7 +105,7 @@ textarea {
 
 a {
   text-decoration: none;
-  color: #17a2b8;
+  color: #fff;
 }
 
 ul {
@@ -408,6 +408,7 @@ ul {
   list-style: none;
   text-align: center;
   width: 100%;
+  padding: 0;
 }
 
 .navigation__item {
@@ -613,6 +614,18 @@ hr {
   padding-right: 60px;
 }
 
+#preview-2 {
+  width: 600px;
+  border: 3px solid #17a2b8;
+  background-color: var(--mainColor);
+  padding: 15px;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  /* border-radius: 30px; */
+}
+
 .corner {
   width: 7px;
   height: 7px;
@@ -692,16 +705,6 @@ hr {
   }
 }
 
-#contact-form {
-  display: block;
-  max-width: 600px;
-  margin: 0 auto;
-  border: 3px solid var(--borderColor);
-  padding: 15px;
-  border-radius: 5px;
-  background-color: var(--mainColor);
-  margin-bottom: 50px;
-}
 #contact-form label {
   line-height: 2.7em;
 }
@@ -721,10 +724,10 @@ hr {
 }
 
 #submit-btn {
-  margin-top: 10px;
+  margin: 10px 0;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px 0;
   color: #fff;
   background-color: var(--buttonColor);
   border: none;

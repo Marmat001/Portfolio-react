@@ -8,6 +8,10 @@
     color: #fff;
   }
 
+  a {
+    color: #fff;
+  }
+
   h6 {
     color: #fff;
     font-family: 'Russo One', sans-serif;
@@ -119,9 +123,9 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
 
-  #contact-form {
-    border: 3px solid #160f17;
+  #preview-2 {
     background-color: #350909;
+    border: 3px solid #000000;
   }
 
   .input-field {
@@ -174,6 +178,10 @@
   h5,
   strong {
     color: rgb(254, 19, 19);
+  }
+
+  a {
+    color: #fe1313;
   }
 
   h6 {
@@ -288,10 +296,9 @@
   #preview {
     background-color: rgba(27, 28, 27, 0.8);
   }
-
-  #contact-form {
-    border: 3px solid #160f17;
+  #preview-2 {
     background-color: #171616;
+    border: 3px solid #9f0812;
   }
 
   .input-field {
@@ -346,6 +353,10 @@
   input,
   label,
   textarea {
+    color: black;
+  }
+
+  a {
     color: black;
   }
 
@@ -452,9 +463,9 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
 
-  #contact-form {
-    border: 3px solid #c1c1c1;
+  #preview-2 {
     background-color: #eaeaea;
+    border: 3px solid #000000;
   }
 
   .input-field {

@@ -32,10 +32,12 @@ const AboutMe = () => {
                   <li>JavaScript (ES6+)</li>
                   <li>React</li>
                   <li>Node.js</li>
+                  <li>MongoDB/Mongoose</li>
                 </ul>
                 <ul>
                   <li>HTML/(S)CSS</li>
-                  <li>MongoDB/Mongoose</li>
+                  <li>TypeScript</li>
+                  <li>Google Maps API</li>
                   <li>Heroku/DigitalOcean</li>
                 </ul>
                 <div id='corner-br' className='corner' />
@@ -51,7 +53,7 @@ const AboutMe = () => {
                 href='resume.pdf'
                 className='btn btn--white btn--animated btn-resume'
               >
-                Download Resume
+                View Resume
               </a>
             </p>
           </div>

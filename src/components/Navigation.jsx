@@ -55,7 +55,8 @@ const Navigation = () => {
           </li>
           <li className='navigation__item'>
             <a
-              href='/#'
+              target='_blank'
+              href='/resume.pdf'
               className='navigation__link'
               onClick={() => setNavOpen(!navOpen)}
             >
