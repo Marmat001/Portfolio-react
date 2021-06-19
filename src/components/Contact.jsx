@@ -30,8 +30,8 @@ export const Contact = () => {
         <h3 style={{ textAlign: 'center' }}>Send Me A Message</h3>
 
         <div id='preview-2'>
-          <div id='corner-tl' className='corner' />
-          <div id='corner-tr' className='corner' />
+          <div id='corner-tl-2' className='corner-2' />
+          <div id='corner-tr-2' className='corner-2' />
           <form id='contact-form' onSubmit={sendEmailHandler}>
             <label>Your Name</label>
             <input
@@ -63,8 +63,8 @@ export const Contact = () => {
             />
             <input id='submit-btn' type='submit' value='Send Message' />
           </form>
-          <div id='corner-br' className='corner' />
-          <div id='corner-bl' className='corner' />
+          <div id='corner-br-2' className='corner-2' />
+          <div id='corner-bl-2' className='corner-2' />
         </div>
       </div>
     </section>

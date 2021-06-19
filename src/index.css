@@ -615,7 +615,7 @@ hr {
 }
 
 #preview-2 {
-  width: 600px;
+  max-width: 600px;
   border: 3px solid #17a2b8;
   background-color: var(--mainColor);
   padding: 15px;
@@ -623,34 +623,74 @@ hr {
   display: flex;
   margin: 0 auto;
   margin-bottom: 100px;
-  /* border-radius: 30px; */
 }
 
 .corner {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+
   border: 1.5px solid #17a2b8;
   background-color: #fff;
   position: absolute;
 }
 
+.corner-2 {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 2.5px solid #17a2b8;
+  background-color: #fff;
+  position: absolute;
+}
+
 #corner-tl {
+  top: -8px;
+  left: -8px;
+}
+
+#corner-tr {
+  top: -8px;
+  right: -8px;
+}
+
+#corner-br {
+  bottom: -8px;
+  right: -8px;
+}
+
+#corner-bl {
+  bottom: -8px;
+  left: -8px;
+}
+
+#corner-tl-2 {
   top: -5px;
   left: -5px;
 }
 
-#corner-tr {
+#corner-tr-2 {
   top: -5px;
   right: -5px;
 }
 
-#corner-br {
+#corner-br-2 {
   bottom: -5px;
   right: -5px;
 }
 
-#corner-bl {
+#corner-bl-2 {
   bottom: -5px;
   left: -5px;
 }
