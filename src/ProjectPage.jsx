@@ -9,7 +9,7 @@ const ProjectPage = ({ match }) => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false)
-    }, 700)
+    }, 900)
   }, [])
 
   return (
@@ -26,6 +26,14 @@ const ProjectPage = ({ match }) => {
             <img src={project.image} alt='project-hero' />
           </div>
 
+          {project.code2 && (
+            <div style={{ textAlign: 'center' }}>
+              <a target='/_blank' href={project.code2}>
+                <h4>View Project Code</h4>
+              </a>
+            </div>
+          )}
+
           <div className='tech-gif'>
             {project.link !== '' && (
               <div className='gif-container'>
@@ -38,10 +46,15 @@ const ProjectPage = ({ match }) => {
                 <a target='/_blank' href={project.link}>
                   <h4>{project.link}</h4>
                 </a>
+
+                <a target='/_blank' href={project.code}>
+                  <h4>View Code</h4>
+                </a>
               </div>
             )}
+
             <div className='tech-container'>
-              <h2>Technologies used </h2>
+              <h2>Technologies used</h2>
               <div className='tech-stack'>
                 {project.techStack.map((p) => (
                   <img key={p} src={p} alt='project-hero' />
@@ -83,4 +96,3 @@ const ProjectPage = ({ match }) => {
 }
 
 export default ProjectPage
-

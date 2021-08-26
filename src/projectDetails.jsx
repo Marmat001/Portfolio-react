@@ -98,6 +98,7 @@ const projects = [
       css,
     ],
     link: 'https://vroomshop.herokuapp.com',
+    code: 'https://github.com/Marmat001/Car-shop',
     description:
       'This project was built when I first started learning the MERN stack (React, MongoDB, Express & Node). This was the first larger project I worked on from scratch, without using some kind of prebuilt plugin or platform. Building this ecommerce styled full-stack application was a great opportunity to familiarise myself with the core concepts I had been learning at the time such as: - Managing global state with Redux (Actions & Reducers). - Using redux state in components (useDispatch & useSelector). - Creating an extensive backend with JWT authentication and Google login functionality using Express. - Working with a mongoDB database and the Mongoose ODM. - Creating custom authentication middleware... and much more. Some of the features provided in this application are: ',
     functionality: [
@@ -151,6 +152,7 @@ const projects = [
     image2: gameDatabase3,
     techStack: [react, motion, styledComponents, rawg, particleJS],
     link: 'https://gamedatabase.netlify.app',
+    code: 'https://github.com/Marmat001/game-database',
     description:
       'A fully responsive front-end React application using the the RAWG Video Games Database API. This app pulls game information from all the main sections of the RAWG database. Some of the technology applied to build this application: - Various React hooks such as useEffect, useHistory and useLocation to make API calls and define routes. - Multiple API calls to fetch game data from RAWG. - State stored and persisted using Redux and local storage. Some of the features provided in this application are:',
     functionality: [
@@ -185,6 +187,7 @@ const projects = [
     image2: vacationeer3,
     techStack: [react, gma, nodeJs, express, mongoDB, antd, bootstrap, css],
     link: 'https://vacationeer.herokuapp.com',
+    code: 'https://github.com/Marmat001/vacationeer',
     description:
       'A fully responsive back-end focused marketplace CRUD application built with the MERN stack (React, MongoDB, Express & Node). Building this full-stack marketplace application was a great opportunity to further develop some of the core concepts I had been learning up until now including the MERN stack with Redux, advanced CRUD functionality with search, but also: - The core concepts of a marketplace application, how to collect money and pay out to sellers. - Integrating Stripe payments to build a marketplace app. - Advanced use case of Stripe to automate entire payment workflow to build a multi-user app. - Building a server / API with filtering functionality... and a lot more. Some of the features provided in this application are:',
     functionality: [
@@ -198,7 +201,7 @@ const projects = [
       'System that checks if hotel has already been booked by the user, no duplicate bookings allowed',
       'Login authentication system with email & password / Google login / Facebook login',
       'Forgot / reset password functionality, confirmation email on sign up etc...',
-      'User profile for sellers with dashboard showing booking summaries, account balance, stripe payout settings, when the user joined the website and an option for editing / removing / adding a new hotel for booking.',
+      'User profile for sellers with dashboard showing booking summaries, account balance, stripe payout settings, when the user joined the website and an option for editing / removing / adding a new hotel for booking',
       'Google Maps API for location suggestions / autocompletes',
       'View orders in customers dashboard and detailed info via payment modal',
       'Two different types of users are hosted in this app, a seller and a buyer. The seller can for example be a hotel owner who will post the hotel rooms available for booking. The buyer is the one who can then book this hotel room',
@@ -240,8 +243,9 @@ const projects = [
     image: noterjs,
     techStack: [react, typeScript, esbuild, immer, lerna, css, bulma],
     link: '',
+    code2: 'https://github.com/Marmat001/code-cli',
     description:
-      'An interactive browser-based coding environment, similar to a Jupyter Notebook, but for javascript. You can write Javascript, see it being executed, and write comprehensive documentation using the markdown editor. The workflow of creating this program is different from all my other projects, as it is in fact not me building it from scratch, rather me following a course called "React and Typescript: "Build a Portfolio Project" by Stephen Grider on Udemy. So why did I decide to throw this project into my portfolio? I was originally working on another project, where bundling in the browser would be a necessity for it to be successful. I wanted to try out my set of skills by building out something other than an ordinary internet page. After struggling for some time, and a lot of stack overflow searching I came to the conclusion that Webpack, my bundler of choice for that project, did not work in the browser. After some more research I discovered the bundler Esbuild. While reading the Esbuild documentation and scrolling through stackoverflow after experiencing a specific problem, I discovered a link to the course React and Typescript course on Udemy. I ended up taking the course as it covered many of the topics that I wanted to learn, one of them which was Typescript. The course was filled with so much knowledge and concepts that it took me a whole month of buidling, destroying, rebuilding on my own without peaking the course material, only allowing myself to google, to fully grasp the concepts and reasons for the architectural decision making. With that being said, I have rebuilt this project from scratch with the best of my ability to similar outcomes using different approaches and different methods to see why certain strategies worked better than others and this experience has truly taught me a lot. I absolutely believe I could build a comparable application from the ground up after completing this course, and this project has made me discover a dozen of programming tricks, even more than some of the other projects I have built on my own, which is why I decided to include this project. ',
+      'An interactive browser-based coding environment, similar to a Jupyter Notebook, but for javascript. You can write Javascript, see it being executed, and write comprehensive documentation using the markdown editor. The workflow of creating this program is different from all my other projects, as it is in fact not me building it from scratch, rather me following a course called "React and Typescript: "Build a Portfolio Project" by Stephen Grider on Udemy. So why did I decide to throw this project into my portfolio? I was originally working on another project, where bundling in the browser would be a necessity for it to be successful. I wanted to try out my set of skills by building out something other than an ordinary internet page. After struggling for some time, and a lot of stack overflow searching I came to the conclusion that Webpack, my bundler of choice for that project, did not work in the browser. After some more research I discovered the bundler Esbuild. While reading the Esbuild documentation and scrolling through stackoverflow after experiencing a specific problem, I discovered a link to the course "React and Typescript course" on Udemy. I ended up taking the course as it covered many of the topics that I wanted to learn, one of them which was Typescript. The course was filled with so much knowledge and concepts that it took me a whole month of buidling, destroying, rebuilding on my own without peaking the course material, only allowing myself to google, to fully grasp the concepts and reasons for the architectural decision making. With that being said, I have rebuilt this project from scratch with the best of my ability to similar outcomes using different approaches and different methods to see why certain strategies worked better than others and this experience has truly taught me a lot. I absolutely believe I could build a comparable application from the ground up after completing this course, and this project has made me discover a dozen of programming tricks, even more than some of the other projects I have built on my own, which is why I decided to include this project. ',
     description2:
       'Building this application was a great opportunity to familiarise myself with the essential concepts of: - Typescript and how to use React / Redux with Typescript, - Simplifying state updates within Redux with the Immer library, -  Managing a project using a package-based architecture, - Understanding the challenges of in-browser code transpiling and processing, - How to safely handle and execute user-provided code directly in the browser, - Automate deployment with the Lerna CLI... and much more. Some of the features provided in this application are:',
     functionality: [
@@ -283,6 +287,7 @@ const projects = [
       css,
     ],
     link: 'https://tourifyshop.herokuapp.com',
+    code: 'https://github.com/Marmat001/tourify',
     description:
       'A fully responsive CRUD application built with the MERN stack (React, MongoDB, Express & Node). The goal when making this project was to add as much functionality as possible, and preferably by using different programming approaches. I wanted this to be one of my largest and most complex projects yet, to really evaluate and experiment with my knowledge. Building this full-stack application was a great opportunity to augment my expertise in what I had been learning at the time such as: - Integrating firebase for authentication handling and saving user information in MongoDB database, combining firebase with MongoDB for an efficient authentication system, - Using a location data platform like Mapbox that powers the maps and location services used in many popular apps, - Working with a component based styling framework like Ant Design, - Utilizing a cloud-based image / video management service like Cloudinary for effortless multiple image uploads... and much more. There is a lot of functionality in this application, it would be hard to mention everything... so here are some of the features provided:',
     functionality: [
@@ -293,7 +298,7 @@ const projects = [
       'Automatic redirection to previous page after typing in login credentials to access private functionality / routes',
       'Admin dashboard with add / edit or delete tour / country functionality, booking management system and more...',
       'User dashboard with password update, booking history and invoice / PDF download etc...',
-      'Tours CRUD functionality with advanced features including continents, countries etc..',
+      'Tours CRUD functionality with advanced features including continents, countries etc...',
       'Multiple image uploads with client side resize',
       'Plenty of advanced filtering and searching options',
       'Page pagination',
@@ -358,6 +363,7 @@ const projects = [
     image2: amplified3,
     techStack: [react, scss],
     link: 'https://amplified-sound.netlify.app',
+    code: 'https://github.com/Marmat001/Amplified-music-player',
     description:
       'This project is a React music player with expected functionality. There is also a library with a selection of royalty free music that the user can browse through and play. This application has really helped me with the concepts of: - Working with hooks such as useRef for capturing input values, - Passing, drilling and destructuring props, - Passing, lifting and modifying state... and more. Some of the features provided in this application are:',
     functionality: [

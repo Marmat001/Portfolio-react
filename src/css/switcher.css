@@ -97,7 +97,7 @@
 }
 
 .theme-red #profile_pic {
-  border: 2px solid #160f17;
+  border: 5px solid #160f17;
 }
 
 .theme-red hr {
@@ -265,7 +265,7 @@
 }
 
 .theme-black #profile_pic {
-  border: 2px solid #160f17;
+  border: 5px solid #160f17;
 }
 
 .theme-black hr {
@@ -425,7 +425,7 @@
 }
 
 .theme-white #profile_pic {
-  border: 2px solid #c1c1c1;
+  border: 5px solid #c1c1c1;
 }
 
 .theme-white hr {

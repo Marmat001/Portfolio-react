@@ -586,7 +586,7 @@ ul {
   height: 320px;
   width: 320px;
   object-fit: cover;
-  border: 2px solid var(--borderColor);
+  border: 5px solid var(--borderColor);
 }
 
 hr {
@@ -656,23 +656,23 @@ hr {
 }
 
 #corner-tl {
-  top: -8px;
-  left: -8px;
+  top: -9px;
+  left: -9px;
 }
 
 #corner-tr {
-  top: -8px;
-  right: -8px;
+  top: -9px;
+  right: -9px;
 }
 
 #corner-br {
-  bottom: -8px;
-  right: -8px;
+  bottom: -9px;
+  right: -9px;
 }
 
 #corner-bl {
-  bottom: -8px;
-  left: -8px;
+  bottom: -9px;
+  left: -9px;
 }
 
 #corner-tl-2 {
@@ -843,7 +843,7 @@ hr {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  min-height: 410px;
+  min-height: 406px;
 }
 
 .post__side {
