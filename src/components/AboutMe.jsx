@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from '../img/me.png'
+// import profilePic from '../img/me.png'
 
 const AboutMe = () => {
   return (
@@ -46,7 +46,7 @@ const AboutMe = () => {
             </div>
           </div>
           <div className='social-links'>
-            <img id='profile_pic' src={profilePic} alt='profile-hero' />
+            {/* <img id='profile_pic' src={profilePic} alt='profile-hero' /> */}
             <p>
               <a
                 target='_blank'
