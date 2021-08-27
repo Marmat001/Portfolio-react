@@ -642,7 +642,7 @@ hr {
   );
 
   border: 1.5px solid #17a2b8;
-  background-color: #fff;
+  background-color: #FFD700;
   position: absolute;
 }
 
@@ -714,12 +714,12 @@ hr {
 @media screen and (max-width: 550px) {
   #preview-shadow {
     max-width: 250px;
-    height: 150px;
+    height: 165px;
     padding-bottom: 50px;
   }
   #preview {
     max-width: 250px;
-    height: 150px;
+    height: 175px;
     padding-bottom: 50px;
     flex-direction: column;
   }
