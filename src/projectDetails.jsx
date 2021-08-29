@@ -69,6 +69,7 @@ import emailJs from './img/emailjs-icon.png'
 import bootstrap from './img/bootstrap-icon.png'
 import css from './img/css-icon.png'
 import scss from './img/scss-icon.png'
+import fontAwesome from './img/font-awesome-logo.png'
 import styledComponents from './img/styled-components-icon.png'
 import rawg from './img/rawg-icon.png'
 import antd from './img/antd-icon.png'
@@ -361,7 +362,7 @@ const projects = [
     name: 'Amplified Music Player',
     image: amplified,
     image2: amplified3,
-    techStack: [react, scss],
+    techStack: [react, scss, fontAwesome],
     link: 'https://amplified-sound.netlify.app',
     code: 'https://github.com/Marmat001/Amplified-music-player',
     description:

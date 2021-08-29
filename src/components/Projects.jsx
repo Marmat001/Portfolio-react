@@ -234,6 +234,7 @@ const Projects = () => {
                 <div>
                   <button className='tech-btn'>React</button>
                   <button className='tech-btn'>SCSS</button>
+                  <button className='tech-btn'>Font Awesome Icons</button>
                 </div>
                 <p className='read-more'>Hover for more info</p>
               </div>
