@@ -642,7 +642,7 @@ hr {
   );
 
   border: 1.5px solid #17a2b8;
-  background-color: #FFD700;
+  background-color: #ffd700;
   position: absolute;
 }
 
@@ -785,6 +785,10 @@ hr {
 .post {
   background-color: var(--secondaryColor);
   border-radius: 10px;
+}
+
+.post__side--front {
+  z-index: 10;
 }
 
 .post__side--front .post-title {
